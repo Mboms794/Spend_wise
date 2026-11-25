@@ -15,3 +15,11 @@ db.sqlite3
 # Generated files
 staticfiles/
 media/
+
+# Duplicate local backend copy
+/backend/
+
+# Frontend dependencies and build files
+node_modules/
+dist/
+dist-ssr/

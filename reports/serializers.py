@@ -2,6 +2,7 @@
 from rest_framework import serializers
 
 
+
 class LargestExpenseSerializer(serializers.Serializer):
     title = serializers.CharField()
     amount = serializers.CharField()
