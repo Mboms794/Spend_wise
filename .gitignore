@@ -1,25 +1,29 @@
 # Environment variables and secrets
 .env
 .env.*
+backend/.env
+backend/.env.*
 
-# Python virtual environment
+# Python virtual environments
 .venv/
+backend/.venv/
 
 # Python cache files
 __pycache__/
 *.py[cod]
 
-# Local database
+# Local databases
 db.sqlite3
+backend/db.sqlite3
 
 # Generated files
 staticfiles/
 media/
 
-# Duplicate local backend copy
-/backend/
-
 # Frontend dependencies and build files
 node_modules/
 dist/
 dist-ssr/
+
+# Editor files
+.vscode/
